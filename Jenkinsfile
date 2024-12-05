@@ -9,7 +9,6 @@ pipeline {
         }
         stage('Hello') {
             steps {
-                // Corrected typo: 'script.sh' instead of 'scipt.sh'
                 sh './script.sh'
             }
         }
